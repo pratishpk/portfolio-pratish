@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pratish Khandelwal</title>
+    <link rel="icon" type="image/x-icon" href="my img.jpeg">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:ital,wght@0,300;0,400;1,700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: auto;
+            padding: 0;
+
+        }
+
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: 'poppins', sans-serif;
+
+        }
+
+        /* Nav Bar Style */
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(118, 118, 198);
+            font-size: 1.04rem;
+        }
+
+
+        /* First Section Style */
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 190px 0;
+        }
+
+        .firstsection>div {
+            width: 30%;
+
+        }
+
+        .leftsection {
+            font-size: 3rem;
+        }
+
+        .rightsection img {
+            width: 100%;
+        }
+
+        .purple {
+            color: rgb(170, 107, 228);
+            font-size: 60px;
+        }
+
+        .text-grey {
+            color: grey;
+        }
+
+        #element {
+            color: rgb(170, 107, 228);
+        }
+
+        /* Second Section Style */
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 70vh;
+        }
+
+        .secondsection h1 {
+            font-size: 2rem;
+        }
+
+
+        .secondsection .box {
+            background-color: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 126px;
+        }
+
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1px;
+            margin: 40px 90px;
+        }
+
+        .image-top {
+            width: 45px;
+            position: relative;
+            top: -55px;
+            left: -9px;
+
+        }
+
+        .image-top1 {
+            width: 45px;
+            position: relative;
+            top: -65px;
+            left: -9px;
+        }
+
+        .image-top2 {
+            width: 70px;
+            position: relative;
+            top: -60px;
+            left: -9px;
+        }
+
+        .vertical-title0 {
+            position: relative;
+            top: 55px;
+            width: 150px;
+        }
+
+        .vertical-title1 {
+            position: relative;
+            top: 70px;
+            width: 150px;
+        }
+
+        .vertical-title2 {
+            position: relative;
+            top: 60px;
+            width: 150px;
+        }
+
+        .vertical-title3 {
+            position: relative;
+            top: 65px;
+            width: 150px;
+        }
+
+        .vertical-title4 {
+            position: relative;
+            top: 65px;
+            width: 150px;
+        }
+
+        .vertical-title5 {
+            position: relative;
+            top: 60px;
+            width: 150px;
+        }
+
+
+
+        .vertical-desc0 {
+            position: relative;
+            top: 60px;
+            color: gray;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc1 {
+            position: relative;
+            top: 75px;
+            color: gray;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc2 {
+            position: relative;
+            top: 65px;
+            color: gray;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc3 {
+            position: relative;
+            top: 70px;
+            color: gray;
+            width: 150px;
+            font-size: 14px;;
+        }
+
+        .vertical-desc4 {
+            position: relative;
+            top: 70px;
+            color: gray;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc5 {
+            position: relative;
+            top: 60px;
+            color: gray;
+            width: 150px;
+            font-size: 14px;
+        }
+
+
+
+
+        /* Footer Style */
+        footer {
+            background-color: rgb(23, 23, 57);
+            /* height: 250px; */
+        }
+
+        .footer {
+            display: flex;
+            padding: 20px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 225px;
+        }
+
+        .footer-rights {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+
+        }
+
+        .footer ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .footer ul li a:hover {
+            color: rgb(118, 118, 198);
+            font-size: 1.04rem;
+        }
+    </style>
+</head>
+
+<!-- Body--------Starts---------Here -->
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Pratish's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li> <a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+
+        <!-- First----------Section-----------Starts----------Here-->
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My Name is <span class="purple">Pratish</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection"><img src="bg1.png" alt=""></div>
+        </section>
+
+        <hr>
+
+        <!-- Second------------Section------------Starts-------Here -->
+        <section class="secondsection">
+            <span class="text-grey">What I have done so far</span>
+            <h1 class="h1">My Expertise</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top2" src="bg.png" alt="">
+                    <div class="vertical-title0">
+                        Website Development
+                    </div>
+                    <div class="vertical-desc0">
+                        I possess expertise in frontend development, proficient in HTML5, CSS3, and JavaScript, enabling
+                        me to craft responsive websites. Additionally, I excel in leveraging WordPress and Wix to create
+                        fully responsive web solutions.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top2" src="graphic.png" alt="">
+                    <div class="vertical-title1">
+                        Graphic Design
+                    </div>
+                    <div class="vertical-desc1">
+                        I offer graphic design expertise for impactful promotional collateral. My creations, spanning
+                        flyers, posters, banners, brochures, and more, artfully communicate messaging, captivate
+                        audiences, and align seamlessly with brand identity.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top1" src="startup1.png" alt="">
+                    <div class="vertical-title2">
+                        Startup Management
+                    </div>
+                    <div class="vertical-desc2">
+                        I am capable of overseeing startup development, encompassing strategic planning, resource
+                        allocation, and project management. My skills and experience contribute to the effective
+                        execution of critical phases in a startup's growth and success.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="MS.png" alt="">
+                    <div class="vertical-title3">
+                        Micosoft Office
+                    </div>
+                    <div class="vertical-desc3">
+                        I possess a comprehensive skillset in Microsoft Office tailored for corporate requirements.
+                        Proficiency in applications like Word, Excel, PowerPoint, and Outlook equips me to efficiently
+                        manage essential tasks and enhance productivity within corporate settings.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="DM.png" alt="">
+                    <div class="vertical-title4">
+                        Digital Marketing
+                    </div>
+                    <div class="vertical-desc4">
+                        I possess a fundamental skill set in digital marketing essential for corporate success. This
+                        includes core knowledge of online advertising, SEO, social media management, and analytics,
+                        enabling me to contribute to effective digital marketing strategies and campaigns.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top2" src="BD.png" alt="">
+                    <div class="vertical-title5">
+                        Business Development
+                    </div>
+                    <div class="vertical-desc5">
+                        My expertise in business development is a pivotal asset for corporate growth. I excel in
+                        identifying opportunities, forging partnerships, and devising strategies that drive revenue and
+                        expansion, making me a valuable catalyst for organizational success.
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <!-- footer-----------------------------Section -->
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Pratish's Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li> <a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a href="https://www.facebook.com/mr.pratish.pk/" style="--i:5"><i
+                                class='bx bxl-facebook-circle'></i> Facebook</a></li>
+                    <li> <a href="https://www.instagram.com/mr_pratish.pk/" style="--i:6"><i
+                                class='bx bxl-instagram-alt'></i> Instagram</a></li>
+                    <li><a href="https://www.linkedin.com/in/pratishpk/" style="--i:7"><i
+                                class='bx bxl-linkedin-square'></i> Linkedin</a></li>
+                    <li><a href="https://twitter.com/AmeriyaPratish/" style="--i:8"><i class='bx bxl-twitter'></i>
+                            Twitter</a></li>
+                    <li><a href="mailto:ameriyapk2601@gmail.com" style="--i:9"><i class='bx bxl-gmail'></i> Gmail</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169 www.pratishkhandelwal.com | All rights reserved
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', '&amp; Graphic Designer.', '&amp; Startup Mentor.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
